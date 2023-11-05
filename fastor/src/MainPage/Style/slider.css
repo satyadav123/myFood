@@ -1,0 +1,12 @@
+.Slider{
+    width: 80%;
+    margin: auto;
+}
+#main-slider-container{
+    width: 100% !important;
+}
+.your-taste{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

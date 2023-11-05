@@ -1,0 +1,57 @@
+/* Base styles for larger screens */
+.register-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .otp-inputs {
+    display: flex;
+    justify-content: center;
+   
+  }
+  
+  .otp-inputs input {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+  ;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive styles for smaller screens (e.g., mobile devices) */
+  @media (max-width: 768px) {
+    .otp-inputs {
+      flex-direction: row;
+      align-items: center;
+    }
+    .otp-inputs input {
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+        text-align: center;
+    
+    
+      }
+    
+    .otp-inputs input {
+      margin: 5px 0;
+    }
+  }
+  

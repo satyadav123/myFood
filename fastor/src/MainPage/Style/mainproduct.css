@@ -1,0 +1,19 @@
+.mainProduct{
+    width: 40%;
+    margin: auto;
+    height: 600px;
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.main-product-img{
+    width: 100%
+}
+@media screen and (max-width:760px) {
+    .mainProduct{
+        width: 90%;
+        margin: auto;
+        height: 400px;
+        margin-top: 30px;
+      
+    } 
+}

@@ -1,0 +1,130 @@
+/* ListRestaurants.css */
+
+
+  
+
+.container-restaurant{
+    width: 80%;
+    margin: auto;
+}
+
+  .popular-Once{
+    width: 80%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4,24%);
+    grid-gap: 1%;
+    margin: auto;
+  }
+  .popular-Once>div>div>img{
+    width: 100%;
+   
+  }
+  .popular-Once>div{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  }
+
+/* Media query for screens up to 768px */
+/* Media query for screens up to 660px */
+@media screen and (max-width: 660px) {
+    .popular-Once {
+      grid-template-columns: repeat(1, 100%);
+    }
+  }
+  
+  /* Media query for screens between 660px and 960px */
+  @media screen and (min-width: 660px) and (max-width: 960px) {
+    .popular-Once {
+      grid-template-columns: repeat(2, 50%);
+    }
+  }
+  .rating-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .rating-box1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   
+  }
+  .Offer{
+    width: 20px;
+    
+  }
+
+  .rating-box1>p{
+color: gray;
+  }
+  .Offer-box{
+    display: flex;
+    margin-top: 5px;
+    
+  }
+  .Offer-box>p{
+    margin-left: 1px;
+  
+  }
+  .Offer-box-color{
+    color: rgb(184, 70, 70);
+  }
+  .address{
+    color: rgb(138, 39, 39) !important;
+  }
+  /* Media query for screens between 960px and 1160px */
+  @media screen and (min-width: 960px) and (max-width: 1160px) {
+    .popular-Once {
+      grid-template-columns: repeat(3, 33%);
+    }
+  }
+  
+  /* Media query for screens larger than 1160px */
+  @media screen and (min-width: 1160px) {
+    .popular-Once {
+      grid-template-columns: repeat(4, 24.2%);
+    }
+  }
+  .karan-offer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    height: 200px;
+   border-radius: 5px;
+
+  }
+  .karan-offer>div{
+    width: 50%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding: 25px;
+  }
+ 
+  .offer-wallet>img{
+    width: 130px;
+    float:right;
+  }
+  .wallet{
+    margin-top: 30px;
+  }
+  @media screen and (max-width:760px){
+    .karan-offer{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    
+      }
+      .karan-offer>div{
+        width: 100%;
+     
+        padding: 5px;
+      }
+      .offer-wallet>img{
+        width: 100px;
+        float: left;
+      }
+  }
+  .Popular-restra-images{
+    width: 100%;
+  }
